@@ -1,0 +1,29 @@
+{
+  "branchToRevise": "solution",
+  "incrementCommits": [
+    {
+      "message": "in-progress feature",
+      "tags": [],
+      "branches": []
+    },
+    {
+      "message": "third feature",
+      "tags": ["feature3-finish"],
+      "branches": ["feature3"]
+    },
+    {
+      "message": "second feature",
+      "tags": ["feature2-finish", "feature3-start"],
+      "branches": ["feature2"]
+    },
+    {
+      "message": "first feature",
+      "tags": ["feature1-finish","feature2-start"],
+      "branches": ["feature1"]
+    },
+    {
+      "message": "initial commit",
+      "tags": ["feature1-start"],
+    }
+  ]
+}
